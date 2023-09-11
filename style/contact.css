@@ -1,0 +1,241 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    align-items: center;
+    background-color: rgb(37, 19, 209);
+    color: #fff;
+}
+.company img{
+    font-size: 40px;
+    margin-left: 80px;
+}
+.nav ul{
+    display: flex;
+    list-style: none;
+    margin-right: 200px;
+    font-family: Roboto, sans-serif;
+}
+.nav li a{
+    padding: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+.company2{
+    background-image: url(../asset/images/im_files/coll.jpeg);
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    height: 55vh;
+}
+.company2 h1{
+    color: #fff;
+    padding: 160px 0 20px 50px;
+    font-family: roboto, sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+}
+.company2 p{
+    color: #fff;
+    padding: 0px 0 20px 50px;
+    font-family: roboto, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+.form{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    
+}
+.form1{
+    width: 40%;
+    margin: auto;
+
+}
+
+.form1 h1{
+    color: rgb(30, 22, 102);
+    font-size: 38.4px;
+    font-family: Roboto, sans-serif;
+    margin-bottom: 30px;
+}
+
+form #name{
+    width: 45%;
+    height: 50px;
+    padding: 10px;
+    margin: 0 0 20px 0;
+    border-radius: 5px;
+    border-color: rgba(105, 123, 145, 0.3);
+}
+form #email{
+    width: 45%;
+    height: 50px;
+    padding: 10px;
+    margin: 0 0 20px 0;
+    border-radius: 5px;
+    border-color: rgba(105, 123, 145, 0.3);
+}
+form #number{
+    width: 45%;
+    height: 50px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border-color: rgba(105, 123, 145, 0.3);
+}
+form #subject{
+    width: 45%;
+    height: 50px;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin: 0 0 10px ;
+    border-radius: 5px;
+    border-color: rgba(105, 123, 145, 0.3);
+}
+form #message{
+    padding: 15px;
+    border-color: rgba(105, 123, 145, 0.3);
+}
+form button{
+    width: 240px;
+    height: 48px;
+    background-color: rgb(37, 19, 209);
+    color: #fff;
+    font-size: 15px;
+    font-family: roboto, sans-serif;
+    border-color:rgb(37, 19, 209); 
+    border-radius: 5px;
+    margin-top: 30px;
+}
+.png img{
+    width: 10%;
+    background-color: rgb(37, 19, 209);
+}
+.png{
+    padding: 50px 0 30px 80px;
+}
+.contact{
+    background-color: black;
+    color: white;
+    width: 50%;
+}
+.contact h2{
+    font-size: 25px;
+    font-family: roboto, sans-serif;
+    font-weight: bold;
+    width: 40%;
+}
+.contact p{
+    font-size: 20px;
+    font-family: roboto, sans-serif;
+    width: 30%;
+    font-weight: bold;
+}
+.line1{
+    width: 80%;
+    border: 2px solid #fff;
+}
+.map{
+    margin-top: 50px;
+}
+
+footer{
+    background-color: #1E1666;
+    margin-top: 5px;
+    padding-bottom: -300px;    
+}
+.footer2{
+    padding: 50px;
+    text-align: center;
+}
+.location{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+    padding-bottom: 18px;
+}
+.location1 img{
+    width: 45px;
+    margin: auto;
+    background-color: blue;
+    padding: 7px 7px 7px 7px;
+}
+.location h3{
+    margin-left: -45px;
+    font-family: roboto,sans-serif;
+    color: white;
+    padding: 25px 0 20px 0;
+}
+.location4{
+    margin-left: -90px;
+    font-family: roboto,sans-serif;
+    color: white;
+    padding: 25px 0 20px 0;
+    font-weight: bold;
+
+}
+.location3{
+    margin-left: -60px;
+    font-family: roboto,sans-serif;
+    color: white;
+    padding: 25px 0 20px 0;
+    font-weight: bold;
+}
+.location2{
+    margin-left: -20px;
+    font-family: roboto,sans-serif;
+    color: white;
+    padding: 25px 0 20px 0;
+    font-weight: bold;
+}
+footer ul{
+    display: flex;
+    width: 450px;
+    margin: auto;
+    padding-bottom: 50px;
+    
+}
+footer li{
+    text-align: center;
+    padding: 20px;
+    list-style: none;
+    font-family: roboto, sans-serif;
+    color: #fff;
+    font-weight: bold;
+}
+footer ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.location5{
+    text-align: center;
+    color: #fff;
+    font-family: roboto, sans-serif;
+}
+.location6{
+    width: 450px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.location6 img{
+    width: 18px;
+    align-items: center;
+    text-align: center;
+    margin-bottom: -60px;
+}
+.location6 span img{
+    width: 45px;
+    margin-top: 40px;
+}
